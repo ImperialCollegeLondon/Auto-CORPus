@@ -13,7 +13,7 @@ class abbreviations:
             yield line.strip()
 
     def __conditions(self, candidate):
-        """
+        r"""
         Based on Schwartz&Hearst
 
         2 <= len(str) <= 10
